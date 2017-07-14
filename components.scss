@@ -1,0 +1,5 @@
+@each $class, $config in $gridi-helpers-padding-classes {
+    .#{$class} {
+        @include include-element-padding(map-get($config, top), map-get($config, bottom), map-get($config, left), map-get($config, right), map-get($config, for-screens));
+    }
+}
