@@ -23,6 +23,6 @@
         "bower_components"
     ],
     "dependencies": {
-        "gridi-framework-core": "*"
+        "gridi-framework-css3-mixins": "*"
     }
 }
